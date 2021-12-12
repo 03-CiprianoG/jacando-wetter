@@ -1,0 +1,32 @@
+{
+  "name": "jacando-wetter",
+  "version": "1.0.0",
+  "description": "Jacando's assignment server folder",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "keywords": [
+    "weather",
+    "GraphQL",
+    "server",
+    "open weather map",
+    "data",
+    "API",
+    "testing",
+    "apollo",
+    "prototyping"
+  ],
+  "author": "Giuseppe Cipriano",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "axios": "^0.19.2",
+    "date-fns": "^2.27.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
