@@ -33,8 +33,6 @@
 The App will ask for location and if the location permission is granted, it will automatically fetch the weather data of the user's current location. <br/>
 Otherwise the user can manually enter any location.
 
-### It shows:
-
 <br/>
 
 # GraphQL API:
