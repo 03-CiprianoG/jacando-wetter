@@ -33,7 +33,7 @@ const DropdDownMenu = (props) => {
               <ExternalLinkIcon marginEnd="5px" />
               <a
                 href="https://www.linkedin.com/in/giuseppe-cipriano-59a18a1b5/"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 target="_blank"
               >
                 LinkedIn
@@ -43,7 +43,7 @@ const DropdDownMenu = (props) => {
               <ExternalLinkIcon marginEnd="5px" />
               <a
                 href="https://github.com/03-CiprianoG"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 target="_blank"
               >
                 GitHub
@@ -54,7 +54,13 @@ const DropdDownMenu = (props) => {
           <MenuGroup title="About the app">
             <MenuItem _hover={{ bg: styles.colors.blue[100] }}>
               <ExternalLinkIcon marginEnd="5px" />
-              Docs
+              <a
+                href="https://github.com/03-CiprianoG/jacando-wetter"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Docs
+              </a>
             </MenuItem>
           </MenuGroup>
         </MenuList>
